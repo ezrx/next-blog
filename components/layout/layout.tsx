@@ -1,4 +1,5 @@
 import React from "react";
+import "../../scss/style.scss";
 import { ErrorBoundary } from "../error-boundary";
 import { Header, Footer } from "components/layout";
 

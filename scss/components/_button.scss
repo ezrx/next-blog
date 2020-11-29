@@ -1,0 +1,19 @@
+.btn-tomato,
+.btn-outline-dark {
+  border-radius: 16px;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #f35e5e;
+}
+.btn-tomato:hover,
+.btn-outline-dark:hover {
+  color: #ffffff;
+}
+.btn-tomato.btn-lg,
+.btn-lg.btn-outline-dark {
+  height: 48px;
+  border-radius: 24px;
+  min-width: 160px;
+}

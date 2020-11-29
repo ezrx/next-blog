@@ -1,4 +1,5 @@
-const withCss = require("@zeit/next-css");
+// const withCss = require("@zeit/next-css");
+const withSass = require('@zeit/next-sass')
 const withPlugins = require("next-compose-plugins");
 const TsConfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
@@ -30,4 +31,4 @@ const nextConfig = {
 };
 
 // next.config.js
-module.exports = withPlugins([withCss], nextConfig);
+module.exports = withPlugins([withSass], nextConfig);

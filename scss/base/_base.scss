@@ -1,0 +1,24 @@
+:root {
+  --color-bug: #f35e5e;
+  --color-text: #f35e5e;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #292929;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 60px;
+}
+
+
+
