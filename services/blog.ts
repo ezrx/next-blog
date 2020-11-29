@@ -7,8 +7,8 @@ export class BlogApi {
 
   constructor() {
     this.client = createClient({
-      space: "9lk5dcgffszt",
-      accessToken: "Q_89doAVg1Ej_uofqMv3mYl75ymOijDnwHhPT05Plt4"
+      space: "lggwtv1ltjn1",
+      accessToken: "UrEVHUfuKGKN4jFMQCkCK8umrA3TgQHfFtWQFmmldqU"
     });
   }
 
